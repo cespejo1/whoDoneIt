@@ -1,8 +1,14 @@
 from Person import Person
-print("this will be bigger than 💥 Call of Duty 💥")
+# print("this will be bigger than 💥 Call of Duty 💥")
 
 
 p1 = Person("John", 36)
 
-print(p1.name)
-print(p1.age)
+
+#This will be the Game loop. 
+gameIsOver = False
+userName = input("Welcome to the greatest game you'll ever play. To start off, what is the name of your character?\n")
+
+print("Enjoy the journey, ", userName, "!")
+
+
